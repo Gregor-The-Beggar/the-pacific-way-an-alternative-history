@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= The Pacific Way: An Alternate History
 
 @start_menu_2
 
@@ -579,9 +579,9 @@ Q.stampfer_advisor = 0; // Friedrich Stampfer
 set-bg: img/map_2.jpg
 new-page: true
 
-> *"Such a general development cannot be attributed to the false tactics of any single party or to the mistakes of individual leaders. On the contrary, the conduct of individual leaders is determined largely by the sentiments of the people as a whole. It would be erroneous, however, to regard the sentiments of the moment as reflecting the natural make-up and character of the people. They are merely the consequence of the special circumstances which have brought about this profound degradation of the entire nation."*
+> *"It is deeply personal, historical and spiritual and in this mystical embrace with Fiji, my heart is torn apart. My mind is the victim of the torment of the heart, for it struggles to find expression in words, to truly echo the sorrows and sentiments that constantly ravage it. And in this torment, there is a heartache I have been through every day of my life since leaving Fiji."*
 
- - Karl Kautsky, *Hitlerism and Social Democracy*, 1934
+ - Rajendra Prasad, *Tears in Paradise*, 2004
 
 This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
 
@@ -625,10 +625,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1986
+= 1985
 
 The Republic of Fiji has enjoyed a period of relative harmony since independence in 1970, with the Alliance Party of Ratu Sir Kamisese Mara successfully beating the National Federation Party in the battle to control Fiji's future. Many of those who are fed up with the racial divide of Fijian politics have grown bitter, and economic stagnation and recent strikes have led to the formation of the Fiji Labour Party. Racial issues have come to the fore as iTaukei fear an Indian takeover of political power, while Indians feel continually disenfranchised and that their political representation does not reflect their growing demographic majority. 
 
-Dr Timoci Bavadra, the founder of our party, is an iTaukei man leading a party of mostly Indian candidates and supporters. After a narrow loss in the North Central Indian by-election, the party now knows it will struggle to beat Ratu Kamisese Mara without a coalition. The party prepares to meet in Ba, where delegates from the National Federation Party and the Western United Party are ready to discuss an arrangement.
+Dr Timoci Bavadra, the founder of our party, is an iTaukei man leading a party of mostly Indian candidates and supporters. Our movement was founded to try and unite all the people of Fiji into one political party, which champions the cause of the labour movement and can work to bring down the Mara Government after fifteen years of stagnation and inequality. 
 
 
