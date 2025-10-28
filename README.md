@@ -1,4 +1,4 @@
-# Social Democracy: An Alternate History
+# The Pacific Way: An Alternative History
 
 ## Included Libraries
 
