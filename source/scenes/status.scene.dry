@@ -35,7 +35,7 @@ Queen: [+ Queen +]
 
 Prime Minister: [+ PM +] ([+ pm_party +])
 
-Reichstag composition:
+Parliament composition:
 
 # 1928: 30, 1930: 25, 1932: 22
 {!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_r +]%
