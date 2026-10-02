@@ -228,7 +228,7 @@ Q.income = 1600;
 Q.inflation = 4.42;
 
 // economic growth - source: https://www.macrotrends.net/global-metrics/countries/fji/fiji/gdp-growth-rate.
-Q.economic_growth = -4.61%;
+Q.economic_growth = 4.61%;
 
 // economic expansion timer
 Q.economic_expansion = 0;
