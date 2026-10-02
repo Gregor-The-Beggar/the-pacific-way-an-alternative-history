@@ -518,7 +518,7 @@ Q.n_elections = 0;
 Q.no_majority_elections = 0;
 // elections are not on a timer, but rather there is an indicator for whether you're in an electoral cycle.
 Q.in_election = 1;
-Q.next_election_year = 1928;
+Q.next_election_year = 1987;
 Q.next_election_month = 5;
 Q.next_election_time = 5;
 // government affairs timers
@@ -602,21 +602,21 @@ This is a game of alternate history. While historical accuracy is a major concer
 
 For more information on the politics and government of the Republic of Fiji, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
 
-- @1928_easy: Begin (easy difficulty)
-- @1928_main: Begin (normal difficulty)
-- @1928_hard: Begin (hard difficulty)
-- @1928_historical: Begin (historical mode)
-- @1928_custom: Customize difficulty settings
+- @1985_easy: Begin (easy difficulty)
+- @1985_main: Begin (normal difficulty)
+- @1985_hard: Begin (hard difficulty)
+- @1985_historical: Begin (historical mode)
+- @1985_custom: Customize difficulty settings
 
-@1928_easy
+@1985_easy
 on-arrival: difficulty = -1; resources = 4; dues = 3; starting_rb_strength = 2500; rb_strength = 2500; left_dissent = 10; kpd_relation = 29; z_relation = 54; dvp_relation = 49; starting_budget = 5; budget = 5; hand_size = 4; starting_dissent = 0; starting_relations = 0;
-go-to: 1928_main
+go-to: 1985_main
 
-@1928_hard
+@1985_hard
 on-arrival: difficulty = 1; resources = 0; starting_resources = 0; dues = 1; starting_rb_strength = 1000; rb_strength = 1000; reformist_dissent = 25; left_dissent = 30; labor_dissent = 25; center_dissent = 25; z_relation = 41; kpd_relation = 16; dvp_relation = 31; starting_budget = 3; budget = 3; discard_disabled = 1; starting_dissent = 2; starting_relations = 2;
-go-to: 1928_main
+go-to: 1985_main
 
-@1928_historical
+@1985_historical
 subtitle: Saving, loading, and polls will be disabled. [? if not achievement_game_completed: Not recommended for a first playthrough. ?]
 on-arrival: {!
 Q.hand_size = 3;
@@ -641,12 +641,12 @@ Q.fundraising_disabled = 1;
 Q.saves_disabled = 1;
 this.state.disableSaves = true;
 !}
-go-to: 1928_main
+go-to: 1985_main
 
-@1928_custom
+@1985_custom
 go-to: custom_difficulty
 
-@1928_main
+@1985_main
 audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_HOHEN_BERGEN_noise_reduced.mp3 music/1928_1930/MarekWeber.mp3 music/1928_1930/BAUERNKAPELLE.mp3 music/1928_1933/DERLINDENBAUM_normalized.mp3 music/1928_1933/ZurSonne_zurFreiheit.mp3 music/1928_1933/arbeiter_marseille.mp3 music/1928_1933/Wann_wir_schreiten_Seit_an_Seit.mp3 music/1930_1933/Internationale-de_normalized.ogg music/1928_1930/LiedDerPompadour.mp3 music/1928_1933/SozialistenMarsch.mp3
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
