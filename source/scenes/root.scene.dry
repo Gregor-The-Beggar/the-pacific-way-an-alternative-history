@@ -550,8 +550,8 @@ Q.hindenburg_dismissal_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Tupeni Baba
-Q.muller_advisor = 1; // Dr Timoci Bavadra
+Q.baba_advisor = 1; // Tupeni Baba
+Q.bavadra_advisor = 1; // Dr Timoci Bavadra
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
@@ -562,7 +562,7 @@ Q.sender_advisor = 0; // Toni Sender
 Q.levi_advisor = 0; // Paul Levi
 Q.levi_dead = 0;
 Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
-Q.seydewitz_advisor = 1; // Mahendra Chaudhry
+Q.chaudhry_advisor = 1; // Mahendra Chaudhry
 
 // centrist alternate advisors
 Q.pfulf_advisor = 0; // Antonie Pfülf
