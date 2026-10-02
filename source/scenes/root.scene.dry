@@ -314,6 +314,7 @@ Q.alliance_r = 53;
 Q.nfp_r = 0;
 Q.wup_r = 3;
 Q.fnp_r = 0;
+Q.other_r = 0;
 
 // diff from prev
 Q.old_flp_r = 26;
