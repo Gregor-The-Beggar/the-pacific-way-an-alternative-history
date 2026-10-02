@@ -224,11 +224,11 @@ Q.catholics = 30;
 Q.income = 1600;
 // what about incomes for different classes? rural workers? middle-class workers?
 
-// inflation (in %; 1928: 2.9; 1929: 0; 1930: -5%; 1931: -10%; 1932: -10%) - source: https://en.wikipedia.org/wiki/File:BSPDRWeltkriseEngl.PNG, derived from https://www.destatis.de/DE/Methoden/WISTA-Wirtschaft-und-Statistik/2009/03/rezession-betrachtung-032009.pdf?__blob=publicationFile
-Q.inflation = 2.9;
+// inflation (in %; 1928: 2.9; 1929: 0; 1930: -5%; 1931: -10%; 1932: -10%) - source: https://www.macrotrends.net/global-metrics/countries/fji/fiji/inflation-rate-cpi
+Q.inflation = 4.42;
 
-// economic growth - same source as above, Table 2 (preisbereinigt) - this is also the source for the yearly changes in the great depression.
-Q.economic_growth = 4.4;
+// economic growth - source: https://www.macrotrends.net/global-metrics/countries/fji/fiji/gdp-growth-rate.
+Q.economic_growth = -4.61%;
 
 // economic expansion timer
 Q.economic_expansion = 0;
