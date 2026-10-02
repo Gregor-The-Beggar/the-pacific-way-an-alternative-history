@@ -311,6 +311,7 @@ Q.catholics_other = 12;
 // They did not have a CDU/CSU-style relationship.
 Q.flp_r = 0;
 Q.alliance_r = 53;
+Q.nfp_r = 0;
 Q.wup_r = 3;
 Q.fnp_r = 0;
 
