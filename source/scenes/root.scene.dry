@@ -588,7 +588,7 @@ Q.schumacher_advisor = 0; // Kurt Schumacher (post-1930)
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer
-}
+!}
 set-bg: img/map_2.jpg
 new-page: true
 
@@ -638,7 +638,7 @@ Q.budget = 2;
 Q.fundraising_disabled = 1;
 Q.saves_disabled = 1;
 this.state.disableSaves = true;
-}
+!}
 go-to: 1985_main
 
 @1985_custom
