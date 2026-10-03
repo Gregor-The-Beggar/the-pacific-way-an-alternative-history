@@ -638,7 +638,7 @@ Q.budget = 2;
 Q.fundraising_disabled = 1;
 Q.saves_disabled = 1;
 this.state.disableSaves = true;
-!}
+}
 go-to: 1985_main
 
 @1985_custom
