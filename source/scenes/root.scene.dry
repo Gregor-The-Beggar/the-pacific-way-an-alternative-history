@@ -342,9 +342,9 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.Queen = "Elizabeth II";
-// starting chancellor: Kamisese Mara
-Q.PM = "Ratu Kamisese Mara";
+Q.governorgeneral = "Ratu Sir Penaia Ganilau";
+// starting chancellor: Sir Kamisese Mara
+Q.PM = "Ratu Sir Kamisese Mara";
 Q.pm_party = 'Alliance';
 Q.flp_in_government = 0;
 Q.z_in_government = 1;
