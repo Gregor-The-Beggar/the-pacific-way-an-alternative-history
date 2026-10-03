@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Queen: [+ Queen +]
+Governor-General: [+ governorgeneral +]
 
 Prime Minister: [+ PM +] ([+ pm_party +])
 
